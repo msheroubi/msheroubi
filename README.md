@@ -12,7 +12,7 @@ class MichaelSheroubi:
                         "theory": ('NLP', 'Graph Theory'),
                         "experience": ('Data Analysis', 'Database Design', 'ETL')}
     
-    self.need_to_learn = ['Docker', 'Snowboarding', 'Sowing']
+    self.need_to_learn = ['Kubernetes', 'Snowboarding', 'Sowing']
                         
     self.position = position
     check_requirements(self, requirements)
