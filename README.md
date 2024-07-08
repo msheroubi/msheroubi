@@ -19,7 +19,7 @@ class MichaelSheroubi:
   
   # Check requirements and update need_to_learn
   def check_requirements(self, requirements):
-    knowledge = set(x for val in self.knowledge.values() for x in val)
+    knowledge = set(x for val in self.knowledge.values())
     for req in requirements:
       if req not in knowledge:
         self.need_to_learn.append(req)
