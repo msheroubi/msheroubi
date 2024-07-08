@@ -15,7 +15,7 @@ class MichaelSheroubi:
     self.need_to_learn = ['Kubernetes', 'Snowboarding', 'Sowing']
                         
     self.position = position
-    check_requirements(self, requirements)
+    self.check_requirements(requirements)
   
   # Check requirements and update need_to_learn
   def check_requirements(self, requirements):
